@@ -11,5 +11,6 @@ public class CoffeeMachine {
         System.out.println("Write how many cups of coffee you will need: ");
         int cups = scanner.nextInt();
         System.out.println("For " + cups + " cups of coffee you will need: ");
+        System.out.println(cups * water + " ml of water");
     }
 }
