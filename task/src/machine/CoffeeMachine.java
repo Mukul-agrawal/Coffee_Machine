@@ -20,6 +20,8 @@ public class CoffeeMachine {
         int result = Math.min(temp, temp3);
         if (result == cups) {
             System.out.println("Yes, I can make that amount of coffee");
+        } else if (result < cups) {
+            System.out.println("Yes, I can make that amount of coffee");
         }
 
     }
