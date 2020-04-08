@@ -16,6 +16,8 @@ public class CoffeeMachine {
         int temp1 = water / 200;
         int temp2 = milk / 50;
         int temp3 = coffee_beans / 15;
+        int temp = Math.min(temp1, temp2);
+        int result = Math.min(temp, temp3);
 
     }
 }
