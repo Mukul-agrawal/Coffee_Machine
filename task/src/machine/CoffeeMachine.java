@@ -8,6 +8,7 @@ public class CoffeeMachine {
         System.out.println("Write how many ml of water the coffee machine has: ");
         int water = scanner.nextInt();
         System.out.println("Write how many ml of milk the coffee machine has: ");
+        int milk = scanner.nextInt();
 
     }
 }
