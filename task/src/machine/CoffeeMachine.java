@@ -14,6 +14,7 @@ public class CoffeeMachine {
         System.out.println("Write how many cups of coffee you will need: ");
         int cups = scanner.nextInt();
         int temp1 = water / 200;
+        int temp2 = milk / 50;
 
     }
 }
