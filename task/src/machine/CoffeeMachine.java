@@ -22,6 +22,8 @@ public class CoffeeMachine {
             System.out.println("Yes, I can make that amount of coffee");
         } else if (result < cups) {
             System.out.println("Yes, I can make that amount of coffee");
+        } else if (result > cups) {
+            System.out.println("Yes, I can make that amount of coffee (and even \" + (result - cups) + \" more than that)");
         }
 
     }
