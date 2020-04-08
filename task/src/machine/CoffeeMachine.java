@@ -13,6 +13,7 @@ public class CoffeeMachine {
         int coffee_beans = scanner.nextInt();
         System.out.println("Write how many cups of coffee you will need: ");
         int cups = scanner.nextInt();
+        int temp1 = water / 200;
 
     }
 }
