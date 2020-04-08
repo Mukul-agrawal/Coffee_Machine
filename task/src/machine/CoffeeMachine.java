@@ -15,6 +15,7 @@ public class CoffeeMachine {
         int cups = scanner.nextInt();
         int temp1 = water / 200;
         int temp2 = milk / 50;
+        int temp3 = coffee_beans / 15;
 
     }
 }
