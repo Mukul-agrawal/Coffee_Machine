@@ -6,6 +6,7 @@ public class CoffeeMachine {
         System.out.println("Grinding coffee beans");
         System.out.println("Boiling water");
         System.out.println("Mixing boiled water with crushed coffee beans");
+        System.out.println("Pouring coffee into the cup");
 
 
     }
