@@ -18,6 +18,9 @@ public class CoffeeMachine {
         int temp3 = coffee_beans / 15;
         int temp = Math.min(temp1, temp2);
         int result = Math.min(temp, temp3);
+        if (result == cups) {
+            System.out.println("Yes, I can make that amount of coffee");
+        }
 
     }
 }
