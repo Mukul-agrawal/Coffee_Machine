@@ -9,5 +9,6 @@ public class CoffeeMachine {
         int milk = 50;
         int beans = 15;
         System.out.println("Write how many cups of coffee you will need: ");
+        int cups = scanner.nextInt();
     }
 }
