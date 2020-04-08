@@ -7,5 +7,6 @@ public class CoffeeMachine {
         Scanner scanner = new Scanner(System.in);
         int water = 200;
         int milk = 50;
+        int beans = 15;
     }
 }
