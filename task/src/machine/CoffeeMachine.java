@@ -19,5 +19,8 @@ public class CoffeeMachine {
         System.out.println("Write action (buy, fill, take):");
         scanner.nextLine();
         String option = scanner.nextLine();
+        switch (option) {
+
+        }
     }
 }
