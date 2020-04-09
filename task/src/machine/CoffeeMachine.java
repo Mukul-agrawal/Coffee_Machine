@@ -8,5 +8,6 @@ public class CoffeeMachine {
         System.out.println("The coffee machine has:");
         int water = scanner.nextInt();
         System.out.println(water + " of water");
+        int milk = scanner.nextInt();
     }
 }
