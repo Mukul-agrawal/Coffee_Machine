@@ -7,5 +7,6 @@ public class CoffeeMachine {
         Scanner scanner = new Scanner(System.in);
         System.out.println("The coffee machine has:");
         int water = scanner.nextInt();
+        System.out.println(water + " of water");
     }
 }
