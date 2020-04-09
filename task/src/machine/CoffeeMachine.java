@@ -18,17 +18,20 @@ public class CoffeeMachine {
             switch (option) {
                 case "buy":
                     System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
-                    int n = scanner.nextInt();
+                    String n = scanner.next().trim();
                     switch (n) {
-                        case 1:
-                            System.out.println("The coffee machine has:\n" +
-                                    (water - 250) + " of water\n" +
-                                    (milk) + " of milk\n" +
-                                    (beans - 16) + " of coffee beans\n" +
-                                    (cups - 1) + " of disposable cups\n" +
-                                    (money + 4) + " of money");
+                        case "1":
+                            if (water > 250 && beans > 16) {
+                                water = water - 250;
+                                beans = beans - 16;
+                                cups = cups - 1;
+                                money = money + 4;
+                                System.out.println("I have enough resources, making you a coffee!" + "\n");
+                            } else {
+                                System.out.println("Sorry, not enough water!" + "\n");
+                            }
                             break;
-                        case 2:
+                        case "2":
                             System.out.println("The coffee machine has:\n" +
                                     (water - 350) + " of water\n" +
                                     (milk - 75) + " of milk\n" +
@@ -36,7 +39,7 @@ public class CoffeeMachine {
                                     (cups - 1) + " of disposable cups\n" +
                                     (money + 7) + " of money");
                             break;
-                        case 3:
+                        case "3":
                             System.out.println("The coffee machine has:\n" +
                                     (water - 200) + " of water\n" +
                                     (milk - 100) + " of milk\n" +
