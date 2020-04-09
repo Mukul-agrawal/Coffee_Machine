@@ -75,7 +75,8 @@ public class CoffeeMachine {
                     cups = cups + extra_cups;
                     break;
                 case "take":
-                    System.out.println("I gave you $" + (money));
+                    System.out.println("I gave you $" + (money) + "\n");
+                    money = 0;
                     System.out.println("The coffee machine has:\n" +
                             (water) + " of water\n" +
                             (milk) + " of milk\n" +
