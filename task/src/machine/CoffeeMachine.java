@@ -17,5 +17,7 @@ public class CoffeeMachine {
         int money = scanner.nextInt();
         System.out.println(money + " of money");
         System.out.println("Write action (buy, fill, take):");
+        scanner.nextLine();
+        String option = scanner.nextLine();
     }
 }
