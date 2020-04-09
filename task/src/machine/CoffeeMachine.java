@@ -23,6 +23,16 @@ public class CoffeeMachine {
             case "buy":
                 System.out.println("\"What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
                 int n = scanner.nextInt();
+                switch (n) {
+                    case 1:
+                        System.out.println("The coffee machine has:\\n" +
+                                (water - 250) + " of water\n" +
+                                (milk) + " of milk\n" +
+                                (beans - 16) + " of coffee beans\n" +
+                                (cups - 1) + " of disposable cups\n" +
+                                (money + 4) + " of money");
+                        break;
+                }
 
         }
     }
