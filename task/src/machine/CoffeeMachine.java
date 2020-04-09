@@ -32,12 +32,17 @@ public class CoffeeMachine {
                             }
                             break;
                         case "2":
-                            System.out.println("The coffee machine has:\n" +
-                                    (water - 350) + " of water\n" +
-                                    (milk - 75) + " of milk\n" +
-                                    (beans - 20) + " of coffee beans\n" +
-                                    (cups - 1) + " of disposable cups\n" +
-                                    (money + 7) + " of money");
+                            if (water > 350 && milk > 75 && beans > 20) {
+                                water = water - 350;
+                                milk = milk - 75;
+                                beans = beans - 20;
+                                cups = cups - 1;
+                                money = money + 7;
+                                System.out.println("I have enough resources, making you a coffee!" + "\n");
+                                break;
+                            } else {
+                                System.out.println("Sorry, not enough water!" + "\n");
+                            }
                             break;
                         case "3":
                             System.out.println("The coffee machine has:\n" +
