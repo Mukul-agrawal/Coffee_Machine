@@ -20,6 +20,9 @@ public class CoffeeMachine {
         scanner.nextLine();
         String option = scanner.nextLine();
         switch (option) {
+            case "buy":
+                System.out.println("\"What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
+                int n = scanner.nextInt();
 
         }
     }
