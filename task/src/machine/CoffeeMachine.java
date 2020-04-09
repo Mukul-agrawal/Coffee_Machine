@@ -69,12 +69,10 @@ public class CoffeeMachine {
                     int extra_beans = scanner.nextInt();
                     System.out.println("Write how many disposable cups of coffee do you want to add:");
                     int extra_cups = scanner.nextInt();
-                    System.out.println("The coffee machine has:\n" +
-                            (water + extra_water) + " of water\n" +
-                            (milk + extra_milk) + " of milk\n" +
-                            (beans + extra_beans) + " of coffee beans\n" +
-                            (cups + extra_cups) + " of disposable cups\n" +
-                            (money) + " of money");
+                    water = water + extra_water;
+                    milk = milk + extra_milk;
+                    beans = beans + extra_beans;
+                    cups = cups + extra_cups;
                     break;
                 case "take":
                     System.out.println("I gave you $" + (money));
