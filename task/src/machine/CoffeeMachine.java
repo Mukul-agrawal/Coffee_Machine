@@ -91,6 +91,7 @@ public class CoffeeMachine {
                 case "exit":
                     loop = 0;
                     break;
+
             }
         }
     }
