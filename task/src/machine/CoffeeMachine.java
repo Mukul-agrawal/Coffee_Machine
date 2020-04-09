@@ -49,6 +49,10 @@ public class CoffeeMachine {
                                 (money + 6) + " of money");
                         break;
                 }
+                break;
+            case "fill":
+                System.out.println("\"Write how many ml of water do you want to add:");
+
         }
     }
 }
