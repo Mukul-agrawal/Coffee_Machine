@@ -40,8 +40,15 @@ public class CoffeeMachine {
                                 (cups - 1) + " of disposable cups\n" +
                                 (money + 7) + " of money");
                         break;
+                    case 3:
+                        System.out.println("The coffee machine has:\n" +
+                                (water - 200) + " of water\n" +
+                                (milk - 100) + " of milk\n" +
+                                (beans - 12) + " of coffee beans\n" +
+                                (cups - 1) + " of disposable cups\n" +
+                                (money + 6) + " of money");
+                        break;
                 }
-
         }
     }
 }
