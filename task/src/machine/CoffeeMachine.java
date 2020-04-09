@@ -10,5 +10,6 @@ public class CoffeeMachine {
         System.out.println(water + " of water");
         int milk = scanner.nextInt();
         System.out.println(milk + " of milk");
+        int beans = scanner.nextInt();
     }
 }
