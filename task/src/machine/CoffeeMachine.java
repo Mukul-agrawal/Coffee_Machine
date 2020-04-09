@@ -86,7 +86,9 @@ public class CoffeeMachine {
                             (money) + " of money");
                     System.out.println();
                     break;
-
+                case "exit":
+                    loop = 0;
+                    break;
             }
         }
     }
