@@ -56,6 +56,8 @@ public class CoffeeMachine {
                                 System.out.println("Sorry, not enough water!" + "\n");
                             }
                             break;
+                        case "back":
+                            break;
                     }
                     break;
                 case "fill":
