@@ -52,6 +52,7 @@ public class CoffeeMachine {
                 break;
             case "fill":
                 System.out.println("\"Write how many ml of water do you want to add:");
+                int extra_water = scanner.nextInt();
 
         }
     }
