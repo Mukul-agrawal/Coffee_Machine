@@ -12,12 +12,12 @@ public class CoffeeMachine {
         int money = 550;
         int loop = 1;
         while (loop != 0) {
-            System.out.println("Write action (buy, fill, take, remaining, exit):" + "\n");
-            String option = scanner.nextLine();
+            System.out.print("Write action (buy, fill, take, remaining, exit):" + "\n");
+            String option = scanner.next();
             System.out.println();
             switch (option) {
                 case "buy":
-                    System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino: ");
+                    System.out.println("What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu:");
                     String n = scanner.next().trim();
                     switch (n) {
                         case "1":
@@ -58,6 +58,7 @@ public class CoffeeMachine {
                             break;
                         case "back":
                             break;
+
                     }
                     break;
                 case "fill":
@@ -77,6 +78,7 @@ public class CoffeeMachine {
                 case "take":
                     System.out.println("I gave you $" + (money) + "\n");
                     money = 0;
+                    break;
                 case "remaining":
                     System.out.println("The coffee machine has:\n" +
                             (water) + " of water\n" +
