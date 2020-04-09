@@ -77,12 +77,15 @@ public class CoffeeMachine {
                 case "take":
                     System.out.println("I gave you $" + (money) + "\n");
                     money = 0;
+                case "remaining":
                     System.out.println("The coffee machine has:\n" +
                             (water) + " of water\n" +
                             (milk) + " of milk\n" +
                             (beans) + " of coffee beans\n" +
-                            (cups) + " of disposable cups\n" +
-                            "0 of money");
+                            (cups) + " of disposable cups\n" + "$" +
+                            (money) + " of money");
+                    System.out.println();
+                    break;
 
             }
         }
